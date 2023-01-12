@@ -9,7 +9,7 @@ const deviceRoute = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Devices />} />
-          <Route path="/add" element={<Add />} />
+          {/* <Route path="/add" element={<Add />} /> */}
         </Routes>
       </BrowserRouter>
     </div>
